@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Variables on Universal</title>
+    <link>http://localhost:1313/hugo-universal-theme/tags/variables/</link>
+    <description>Recent content in Variables on Universal</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-universal-theme/tags/variables/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 1)</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts4/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts4/</guid>
+      <description>&lt;p&gt;Để sử dụng JavaScript một cách hiệu quả, việc hiểu rõ các khái niệm như biến, kiểu dữ liệu và chú thích là rất quan trọng. Vì nội dung khá dài nên bài viết này sẽ chia thành nhiều phần.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-biến-là-gì&#34;&gt;1. Biến là gì?&lt;/h2&gt;&#xA;&lt;p&gt;Hãy tưởng tượng dữ liệu như “món hàng”, và biến chính là chiếc hộp giúp bạn cất dữ liệu đó để sử dụng khi cần. Một biến trong JavaScript có thể chứa số, chữ, hoặc nhiều loại dữ liệu khác.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

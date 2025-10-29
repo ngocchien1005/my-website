@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Universal</title>
+    <link>http://localhost:1313/hugo-universal-theme/tags/</link>
+    <description>Recent content in Tags on Universal</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-universal-theme/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beginner</title>
+      <link>http://localhost:1313/hugo-universal-theme/tags/beginner/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/tags/beginner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>http://localhost:1313/hugo-universal-theme/tags/javascript/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operator</title>
+      <link>http://localhost:1313/hugo-universal-theme/tags/operator/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/tags/operator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello-World</title>
+      <link>http://localhost:1313/hugo-universal-theme/tags/hello-world/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/tags/hello-world/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Environment</title>
+      <link>http://localhost:1313/hugo-universal-theme/tags/environment/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/tags/environment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front-End</title>
+      <link>http://localhost:1313/hugo-universal-theme/tags/front-end/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/tags/front-end/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/hugo-universal-theme/tags/programming/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Setup</title>
+      <link>http://localhost:1313/hugo-universal-theme/tags/setup/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/tags/setup/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

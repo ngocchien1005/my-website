@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data-Types on Universal</title>
+    <link>http://localhost:1313/hugo-universal-theme/tags/data-types/</link>
+    <description>Recent content in Data-Types on Universal</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-universal-theme/tags/data-types/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 2)</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/22/posts5/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/22/posts5/</guid>
+      <description>&lt;p&gt;JavaScript là một ngôn ngữ linh hoạt và mạnh mẽ nhờ khả năng làm việc với nhiều kiểu dữ liệu khác nhau. Việc hiểu rõ các kiểu dữ liệu là nền tảng để lập trình hiệu quả.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-1-kiểu-dữ-liệu-nguyên-thủy-primitive-types&#34;&gt;✅ 1. Kiểu Dữ Liệu Nguyên Thủy (Primitive Types)&lt;/h2&gt;&#xA;&lt;p&gt;Kiểu dữ liệu nguyên thủy là các giá trị đơn lẻ và không thể thay đổi trực tiếp.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-11-string--chuỗi-ký-tự&#34;&gt;🔹 1.1. String — Chuỗi ký tự&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Alice&amp;#34;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;greeting&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Hello&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

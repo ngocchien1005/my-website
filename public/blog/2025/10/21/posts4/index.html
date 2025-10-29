@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="vi-vn">
+
+  <head><script src="/hugo-universal-theme/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-universal-theme/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 1)</title>
+<meta name="author" content="DevCows" />
+
+
+
+
+<meta name="keywords" content="devcows, hugo, go, javascript, hello-world, beginner">
+
+
+<meta name="description" content="Site template made by Devcows using Hugo">
+
+<meta name="generator" content="Hugo 0.152.2">
+
+
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v6.7.2/css/all.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+
+<link href="/hugo-universal-theme/css/animate.css" rel="stylesheet">
+
+
+
+  <link href="/hugo-universal-theme/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+
+
+<link href="/hugo-universal-theme/css/custom.css?1761709056" rel="stylesheet">
+
+
+
+  <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+<link rel="shortcut icon" href="/hugo-universal-theme/img/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/hugo-universal-theme/img/apple-touch-icon.png" />
+
+
+<link href="/hugo-universal-theme/css/owl.carousel.css" rel="stylesheet">
+<link href="/hugo-universal-theme/css/owl.theme.css" rel="stylesheet">
+
+
+<link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Universal">
+
+
+
+
+
+
+
+
+<meta property="og:locale" content="vi_vn">
+<meta property="og:site_name" content="Universal">
+<meta property="og:title" content="Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 1)">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts4/" />
+<meta property="og:description" content="Site template made by Devcows using Hugo">
+<meta property="og:image" content="http://localhost:1313/hugo-universal-theme/img/banners/4.jpg">
+<meta property="og:image:type" content="image/jpg">
+
+
+
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+
+
+<meta property="og:updated_time" content="2025-10-21T00:00:00Z">
+
+  
+  
+  <meta property="article:section" content="javascript">
+  <meta property="article:tag" content="javascript">
+  <meta property="article:tag" content="hello-world">
+  <meta property="article:tag" content="beginner">
+  
+  
+  <meta property="article:published_time" content="2025-10-21T00:00:00Z">
+  <meta property="article:modified_time" content="2025-10-21T00:00:00Z">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GoHugoIO">
+<meta name="twitter:title" content="Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 1)">
+
+<meta name="twitter:image" content="http://localhost:1313/hugo-universal-theme/img/banners/4.jpg">
+
+<meta name="twitter:description" content="Site template made by Devcows using Hugo">
+
+
+    
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        
+<header>
+  <div id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-5">
+          <p class="hidden-sm hidden-xs">Liên hệ: (+84) 908 332 781 hoặc ngocchien03@gmail.com.</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+      
+        </div>
+        <div class="col-xs-7">
+          <div class="social">
+            
+            <a href="https://github.com/ngocchien1005" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-github'></i></a>
+            
+            <a href="https://www.facebook.com/share/1BcN2s7BZB/?mibextid=wwXIfr" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-facebook'></i></a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+        <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+    <div class="navbar navbar-default yamm " role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    
+                      <img src="/hugo-universal-theme/img/logo.png" alt="Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 1) logo" class="hidden-xs hidden-sm" />
+                      <img src="/hugo-universal-theme/img/logo-small.png" alt="Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 1) logo" class="visible-xs visible-sm" />
+                    
+                    <span class="sr-only">Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 1) - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/hugo-universal-theme/">Trang chủ</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/hugo-universal-theme/blog/">Blog</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/hugo-universal-theme/about/">Về tôi</a>
+                  </li>
+                  
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+
+
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 1)</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+			      By <a href="/hugo-universal-theme/authors/ngocchien">NgocChien</a>
+                            
+                            
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              October 21, 2025
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          <p>Để sử dụng JavaScript một cách hiệu quả, việc hiểu rõ các khái niệm cơ bản như biến, kiểu dữ liệu, truyền kiểu và chú thích là rất quan trọng. Trong bài viết này, chúng ta sẽ cùng tìm hiểu các khái niệm này một cách chi tiết.</p>
+<p>Vì bài viết này tìm hiểu khá nhiều khái niệm nên tôi sẽ chia nó làm nhiều phần.</p>
+<h2 id="1-biến-là-gì">1. Biến là gì?</h2>
+<p>Bạn hãy tưởng tượng rằng dòng chữ Hello World mà chúng ta in ra trong bài trước chính là một món hàng. Nhưng để có thể sử dụng món hàng đó bất cứ khi nào, chúng ta cần một chiếc hộp để đựng nó. Chiếc hộp đó chính là biến trong lập trình.</p>
+<p>Một chiếc hộp (biến) trong JavaScript có thể chứa bất kỳ thứ gì bạn muốn: một con số, một đoạn chữ, hay thậm chí là một mệnh lệnh. Khi bạn đặt món hàng vào chiếc hộp, bạn có thể dán nhãn cho nó để dễ nhớ. Nhãn đó chính là tên biến.</p>
+<h2 id="2-cách-khai-báo-biến-trong-javascript">2. Cách khai báo biến trong JavaScript</h2>
+<p>Để tạo ra chiếc hộp này, chúng ta sử dụng các từ khóa <code>let</code>, <code>const</code>, hoặc <code>var</code>. Hãy hình dung rằng những từ khóa này giống như các loại hộp khác nhau, mỗi loại có đặc điểm riêng.</p>
+<h3 id="khai-báo-một-chiếc-hộp-biến">Khai báo một chiếc hộp (biến)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, World!&#34;</span>;
+</span></span></code></pre></div><p>&ldquo;let&rdquo; là cách bạn nói với JavaScript: &ldquo;Hãy tạo một chiếc hộp có thể thay đổi, và tôi đặt tên cho nó là message.&rdquo;. Nội dung bên trong hộp là &ldquo;Hello, World!&rdquo;.</p>
+<p>Giờ bạn có thể dùng chiếc hộp này bất kỳ lúc nào — chỉ cần gọi tên message, JavaScript sẽ lấy dữ liệu bên trong hộp ra cho bạn.</p>
+<p>Thay đổi nội dung hộp (biến)</p>
+<p>message = Hello, JavaScript!&quot;;</p>
+<p>Chiếc hộp vẫn giữ nguyên tên, nhưng bạn có thể thay đổi món hàng bên trong.
+Khai báo một hộp (biến) không đổi</p>
+<p>const pi = 3,14;</p>
+<p>Với &ldquo;const&rdquo;, bạn tạo ra một chiếc hộp mà nội dung bên trong không thể thay đổi. Một khi bạn đã đặt 3.14 vào, bạn không thể thay thế nó bằng một giá trị khác.</p>
+<h3 id="3-biến-giúp-ích-gì">3. Biến giúp ích gì?</h3>
+<p>Bạn có thể nghĩ rằng &ldquo;Tại sao không dùng trực tiếp nội dung như &ldquo;Hello, World!&rdquo; mà cần biến?&rdquo; Câu trả lời là: biến giúp bạn tái sử dụng và tổ chức dữ liệu dễ dàng hơn.</p>
+<p>Ví dụ: Tái sử dụng dữ liệu. Thay vì viết đi viết lại &ldquo;Hello, World!&rdquo; mỗi lần cần in, bạn chỉ cần dùng biến:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World!&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">message</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">message</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">message</span>);
+</span></span></code></pre></div><p>Ví dụ: Thay đổi dữ liệu linh hoạt. Nếu bạn cần thay đổi nội dung, chỉ cần cập nhật biến:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, World!&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">message</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, JavaScript!&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">message</span>);
+</span></span></code></pre></div><p>Bạn không cần sửa tất cả các chỗ dùng &ldquo;Hello, World!&rdquo; trong mã nguồn, giúp bạn tiết kiệm thời gian.</p>
+<h3 id="4-tên-biến---ghi-nhớ-và-hiểu">4. Tên biến - Ghi nhớ và hiểu</h3>
+<p>Tên biến giống như nhãn trên hộp. Nếu bạn đặt tên biến rõ ràng, bạn sẽ dễ dàng hiểu được vai trò của biến đó. Một số quy tắc và gợi ý:</p>
+<p>Tên biến phải bắt đầu bằng chữ cái, _, hoặc $.</p>
+<p>Không được chứa khoảng trắng, các từ khóa hoặc ký tự đặc biệt.</p>
+<p>Hãy chọn tên gợi nhớ ý nghĩa, ví dụ:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">userName</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Alice&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">25</span>;
+</span></span></code></pre></div><h3 id="5-kết-luận">5. Kết luận</h3>
+<p>Biến là một khái niệm cốt lõi trong JavaScript. Hãy nghĩ về nó như những chiếc hộp giúp bạn lưu trữ và tổ chức dữ liệu một cách hiệu quả. Khi bạn hiểu cách sử dụng biến, bạn đã bước thêm một bước gần hơn đến việc làm chủ JavaScript!</p>
+
+                        </div>
+                        
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "devcows" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Tìm kiếm</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Tìm kiếm" />
+                <input type="hidden" name="sitesearch" value="http://localhost:1313/" />
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li >
+                <a href="/hugo-universal-theme/categories/javascript">JAVASCRIPT (9)</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/categories/programming">PROGRAMMING (9)</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/categories/web">WEB (9)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/beginner"><i class="fas fa-tags"></i> beginner</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/environment"><i class="fas fa-tags"></i> environment</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/front-end"><i class="fas fa-tags"></i> front-end</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/hello-world"><i class="fas fa-tags"></i> hello-world</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/javascript"><i class="fas fa-tags"></i> javascript</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/operator"><i class="fas fa-tags"></i> operator</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/programming"><i class="fas fa-tags"></i> programming</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/setup"><i class="fas fa-tags"></i> setup</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>Về tôi</h4>
+
+            <p>Sinh viên Công nghệ Thông tin - Đại học Công nghệ TP.HCM (HUTECH)</p>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+            
+            <h4>Bài viết gần đây</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts1/">
+                          
+                            <img src="/hugo-universal-theme/img/banners/2.jpg" class="img-responsive" alt="JavaScript là gì? Tại sao lại phải học JavaScript?" />
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts1/">JavaScript là gì? Tại sao lại phải học JavaScript?</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts2/">
+                          
+                            <img src="/hugo-universal-theme/img/banners/2.jpg" class="img-responsive" alt="Thiết lập môi trường để lập trình JavaScript" />
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts2/">Thiết lập môi trường để lập trình JavaScript</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts3/">
+                          
+                            <img src="/hugo-universal-theme/img/banners/3.jpg" class="img-responsive" alt="Viết chương trình đầu tiên Hello World" />
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts3/">Viết chương trình đầu tiên Hello World</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+            
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Liên hệ</h4>
+
+            <p class="text-uppercase"><strong>Nguyễn Ngọc Chiến</strong>
+        <br>Sinh viên Công nghệ Thông tin - Đại học Công nghệ TP.HCM (HUTECH)
+        <br>Thủ đức, TP.HCM
+        <br>Email: <p>ngocchien03@gmail.com<p>
+        <br>Viet Nam
+        <br>
+      </p>
+      
+
+	    
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</p>
+            
+            <p class="pull-right">
+              Template by <a href="https://bootstrapious.com/universal-business-e-commerce-template">Bootstrapious</a>.
+              
+
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY&v=3.exp"></script>
+<script src="/hugo-universal-theme/js/hpneo.gmaps.js"></script>
+<script src="/hugo-universal-theme/js/gmaps.init.js"></script>
+
+
+<script src="/hugo-universal-theme/js/front.js"></script>
+
+
+<script src="/hugo-universal-theme/js/owl.carousel.min.js"></script>
+
+
+  </body>
+</html>

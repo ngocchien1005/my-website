@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Environment on Universal</title>
+    <link>http://localhost:1313/hugo-universal-theme/tags/environment/</link>
+    <description>Recent content in Environment on Universal</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-universal-theme/tags/environment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thiết lập môi trường để lập trình JavaScript</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts2/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts2/</guid>
+      <description>&lt;h2 id=&#34;1-tại-sao-cần-thiết-lập-môi-trường&#34;&gt;1. Tại sao cần thiết lập môi trường?&lt;/h2&gt;&#xA;&lt;p&gt;Khi bạn chuẩn bị một căn bếp đầy đủ dụng cụ và nguyên liệu, bạn có thể nấu ăn hiệu quả hơn. Tương tự, việc thiết lập môi trường lập trình giúp bạn có đầy đủ công cụ để viết, kiểm tra và chạy mã nguồn.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tiết kiệm thời gian:&lt;/strong&gt; Không phải cài lại công cụ nhiều lần.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Giảm thiểu lỗi:&lt;/strong&gt; Tránh lỗi do thiếu phần mềm cần thiết.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tăng năng suất:&lt;/strong&gt; Tập trung vào lập trình thay vì cài đặt.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-các-thành-phần-cần-thiết&#34;&gt;2. Các thành phần cần thiết&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trình biên dịch / trình thực thi:&lt;/strong&gt;&lt;br&gt;&#xA;Trong JavaScript, trình duyệt là nơi mã được chạy và chuyển thành hành động.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

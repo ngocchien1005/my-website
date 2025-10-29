@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front-End on Universal</title>
+    <link>http://localhost:1313/hugo-universal-theme/tags/front-end/</link>
+    <description>Recent content in Front-End on Universal</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-universal-theme/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript là gì? Tại sao lại phải học JavaScript?</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts1/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts1/</guid>
+      <description>&lt;h2 id=&#34;1-vai-trò-của-công-nghệ-trong-cuộc-sống-hiện-đại&#34;&gt;1. Vai trò của công nghệ trong cuộc sống hiện đại&lt;/h2&gt;&#xA;&lt;p&gt;Ngày nay, công nghệ đã trở thành một phần không thể thiếu trong cuộc sống của chúng ta. Dễ thấy nhất, bạn đang đọc bài blog này thông qua một thiết bị như máy tính hoặc điện thoại. Công nghệ giúp chúng ta làm việc nhanh chóng, hiệu quả hơn.&lt;/p&gt;&#xA;&lt;p&gt;Tuy nhiên, để các thiết bị hoạt động theo ý muốn, chúng cần được cung cấp lệnh một cách cụ thể. Con người sử dụng các ngôn ngữ lập trình như JavaScript, Python, C++,&amp;hellip; để giao tiếp với máy tính và điều khiển chúng.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

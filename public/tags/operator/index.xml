@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operator on Universal</title>
+    <link>http://localhost:1313/hugo-universal-theme/tags/operator/</link>
+    <description>Recent content in Operator on Universal</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-universal-theme/tags/operator/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Toán tử gán, số học và logic</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/23/posts7/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/23/posts7/</guid>
+      <description>&lt;h3 id=&#34;1-toán-tử-gán&#34;&gt;1. Toán Tử Gán&lt;/h3&gt;&#xA;&lt;p&gt;Toán tử gán trong JavaScript được sử dụng để gán giá trị cho biến. Cách sử dụng phổ biến nhất là toán tử &amp;ldquo;=&amp;rdquo;. Tuy nhiên, JavaScript cung cấp một số toán tử gán mở rộng để giúp việc gán trở nên dễ dàng hơn.&lt;/p&gt;&#xA;&lt;p&gt;Toán tử “=:” Gán giá trị cho biến.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// Gán giá trị 10 cho biến a&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Toán tử +=: Gán giá trị mới bằng cách cộng thêm một giá trị vào giá trị hiện tại.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Điều kiện và vòng lặp trong JavaScript</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/24/posts8/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/24/posts8/</guid>
+      <description>&lt;h3 id=&#34;1-điều-kiện-trong-javascript&#34;&gt;1. Điều Kiện trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Điều kiện trong JavaScript giúp chúng ta kiểm tra các biểu thức và thực hiện các hành động khác nhau dựa trên kết quả của việc kiểm tra. JavaScript cung cấp các cấu trúc điều kiện như if, else, else if, và switch để xử lý các tình huống khác nhau.&lt;/p&gt;&#xA;&lt;p&gt;a. Câu Lệnh if&lt;/p&gt;&#xA;&lt;p&gt;Câu lệnh if cho phép bạn kiểm tra một điều kiện và thực hiện một hành động nếu điều kiện đó đúng (true).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hàm trong JavaScript</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/24/posts9/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/24/posts9/</guid>
+      <description>&lt;p&gt;Hàm (function) trong JavaScript là một khối mã có thể được gọi và thực thi khi cần thiết. Hàm giúp tổ chức mã nguồn tốt hơn, giảm thiểu sự trùng lặp và dễ dàng tái sử dụng. JavaScript cung cấp nhiều cách để khai báo và sử dụng hàm.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-khai-báo-hàm-trong-javascript&#34;&gt;1. Khai Báo Hàm trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Có hai cách phổ biến để khai báo hàm trong JavaScript: khai báo hàm thông thường và khai báo hàm dưới dạng biểu thức hàm.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

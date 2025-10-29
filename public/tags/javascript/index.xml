@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Universal</title>
+    <link>http://localhost:1313/hugo-universal-theme/tags/javascript/</link>
+    <description>Recent content in Javascript on Universal</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-universal-theme/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript là gì? Tại sao lại phải học JavaScript?</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts1/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts1/</guid>
+      <description>&lt;h2 id=&#34;1-vai-trò-của-công-nghệ-trong-cuộc-sống-hiện-đại&#34;&gt;1. Vai trò của công nghệ trong cuộc sống hiện đại&lt;/h2&gt;&#xA;&lt;p&gt;Ngày nay, công nghệ đã trở thành một phần không thể thiếu trong cuộc sống của chúng ta. Dễ thấy nhất, bạn đang đọc bài blog này thông qua một thiết bị như máy tính hoặc điện thoại. Công nghệ giúp chúng ta làm việc nhanh chóng, hiệu quả hơn.&lt;/p&gt;&#xA;&lt;p&gt;Tuy nhiên, để các thiết bị hoạt động theo ý muốn, chúng cần được cung cấp lệnh một cách cụ thể. Con người sử dụng các ngôn ngữ lập trình như JavaScript, Python, C++,&amp;hellip; để giao tiếp với máy tính và điều khiển chúng.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thiết lập môi trường để lập trình JavaScript</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts2/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/20/posts2/</guid>
+      <description>&lt;h2 id=&#34;1-tại-sao-cần-thiết-lập-môi-trường&#34;&gt;1. Tại sao cần thiết lập môi trường?&lt;/h2&gt;&#xA;&lt;p&gt;Khi bạn chuẩn bị một căn bếp đầy đủ dụng cụ và nguyên liệu, bạn có thể nấu ăn hiệu quả hơn. Tương tự, việc thiết lập môi trường lập trình giúp bạn có đầy đủ công cụ để viết, kiểm tra và chạy mã nguồn.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tiết kiệm thời gian:&lt;/strong&gt; Không phải cài lại công cụ nhiều lần.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Giảm thiểu lỗi:&lt;/strong&gt; Tránh lỗi do thiếu phần mềm cần thiết.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tăng năng suất:&lt;/strong&gt; Tập trung vào lập trình thay vì cài đặt.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-các-thành-phần-cần-thiết&#34;&gt;2. Các thành phần cần thiết&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trình biên dịch / trình thực thi:&lt;/strong&gt;&lt;br&gt;&#xA;Trong JavaScript, trình duyệt là nơi mã được chạy và chuyển thành hành động.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Viết chương trình đầu tiên Hello World</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts3/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts3/</guid>
+      <description>&lt;h1 id=&#34;viết-chương-trình-đầu-tiên-hello-world-&#34;&gt;Viết chương trình đầu tiên: Hello World 👋&lt;/h1&gt;&#xA;&lt;p&gt;Hello World là chương trình được xem như “cửa ngõ” dành cho những ai mới bắt đầu học lập trình.&lt;br&gt;&#xA;Nó giúp bạn làm quen với cách một chương trình được viết và chạy như thế nào.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-tại-sao-lại-là-hello-world&#34;&gt;1️⃣ Tại sao lại là Hello World?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Đơn giản&lt;/strong&gt; — Chỉ vài dòng lệnh, dễ tập làm quen&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Hiểu cơ bản&lt;/strong&gt; — Biết cách chạy chương trình và xem kết quả&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Xây dựng tư duy lập trình&lt;/strong&gt; — Bước đầu học cú pháp ngôn ngữ lập trình&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-chương-trình-hello-world-trong-javascript&#34;&gt;2️⃣ Chương trình Hello World trong JavaScript&lt;/h2&gt;&#xA;&lt;p&gt;Để in dòng chữ &lt;strong&gt;“Hello, World!”&lt;/strong&gt; bạn dùng lệnh:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 1)</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts4/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts4/</guid>
+      <description>&lt;p&gt;Để sử dụng JavaScript một cách hiệu quả, việc hiểu rõ các khái niệm cơ bản như biến, kiểu dữ liệu, truyền kiểu và chú thích là rất quan trọng. Trong bài viết này, chúng ta sẽ cùng tìm hiểu các khái niệm này một cách chi tiết.&lt;/p&gt;&#xA;&lt;p&gt;Vì bài viết này tìm hiểu khá nhiều khái niệm nên tôi sẽ chia nó làm nhiều phần.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-biến-là-gì&#34;&gt;1. Biến là gì?&lt;/h2&gt;&#xA;&lt;p&gt;Bạn hãy tưởng tượng rằng dòng chữ Hello World mà chúng ta in ra trong bài trước chính là một món hàng. Nhưng để có thể sử dụng món hàng đó bất cứ khi nào, chúng ta cần một chiếc hộp để đựng nó. Chiếc hộp đó chính là biến trong lập trình.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 2)</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts5/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/21/posts5/</guid>
+      <description>&lt;p&gt;JavaScript là một ngôn ngữ linh hoạt và được sử dụng rộng rãi nhờ khả năng làm việc với nhiều kiểu dữ liệu khác nhau. Trong bài viết này, chúng ta sẽ khám phá các kiểu dữ liệu chính trong JavaScript, bao gồm cách chúng hoạt động và khi nào nên sử dụng.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-kiểu-dữ-liệu-nguyên-thủy-primitive-types&#34;&gt;1. Kiểu Dữ Liệu Nguyên Thủy (Primitive Types)&lt;/h3&gt;&#xA;&lt;p&gt;Kiểu dữ liệu nguyên thủy là những kiểu dữ liệu cơ bản nhất trong JavaScript. Mỗi giá trị thuộc kiểu nguyên thủ là một giá trị duy nhất và không thể thay đổi. Các kiểu dữ liệu nguyên thủ bao gồm:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Biến, kiểu dữ liệu, truyền kiểu và chú thích (Phần 3)</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/22/posts6/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/22/posts6/</guid>
+      <description>&lt;h3 id=&#34;1-chuyển-đổi-kiểu-dữ-liệu-trong-javascript&#34;&gt;1. Chuyển Đổi Kiểu Dữ Liệu trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Chuyển đổi kiểu là quá trình biến đổi một giá trị từ kiểu dữ liệu này sang kiểu dữ liệu khác. JavaScript tự động thực hiện chuyển đổi kiểu trong một số tình huống, nhưng bạn cũng có thể chủ động thực hiện chuyển đổi khi cần thiết.&lt;/p&gt;&#xA;&lt;p&gt;Chuyển Đổi Kiểu Tự Động (Implicit Type Conversion) JavaScript có thể tự động chuyển đổi kiểu dữ liệu trong các phép toán. Đây là một cơ chế gọi là &amp;ldquo;chuyển đổi kiểu ngầm định&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Toán tử gán, số học và logic</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/23/posts7/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/23/posts7/</guid>
+      <description>&lt;h3 id=&#34;1-toán-tử-gán&#34;&gt;1. Toán Tử Gán&lt;/h3&gt;&#xA;&lt;p&gt;Toán tử gán trong JavaScript được sử dụng để gán giá trị cho biến. Cách sử dụng phổ biến nhất là toán tử &amp;ldquo;=&amp;rdquo;. Tuy nhiên, JavaScript cung cấp một số toán tử gán mở rộng để giúp việc gán trở nên dễ dàng hơn.&lt;/p&gt;&#xA;&lt;p&gt;Toán tử “=:” Gán giá trị cho biến.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// Gán giá trị 10 cho biến a&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Toán tử +=: Gán giá trị mới bằng cách cộng thêm một giá trị vào giá trị hiện tại.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Điều kiện và vòng lặp trong JavaScript</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/24/posts8/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/24/posts8/</guid>
+      <description>&lt;h3 id=&#34;1-điều-kiện-trong-javascript&#34;&gt;1. Điều Kiện trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Điều kiện trong JavaScript giúp chúng ta kiểm tra các biểu thức và thực hiện các hành động khác nhau dựa trên kết quả của việc kiểm tra. JavaScript cung cấp các cấu trúc điều kiện như if, else, else if, và switch để xử lý các tình huống khác nhau.&lt;/p&gt;&#xA;&lt;p&gt;a. Câu Lệnh if&lt;/p&gt;&#xA;&lt;p&gt;Câu lệnh if cho phép bạn kiểm tra một điều kiện và thực hiện một hành động nếu điều kiện đó đúng (true).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hàm trong JavaScript</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/10/24/posts9/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/10/24/posts9/</guid>
+      <description>&lt;p&gt;Hàm (function) trong JavaScript là một khối mã có thể được gọi và thực thi khi cần thiết. Hàm giúp tổ chức mã nguồn tốt hơn, giảm thiểu sự trùng lặp và dễ dàng tái sử dụng. JavaScript cung cấp nhiều cách để khai báo và sử dụng hàm.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-khai-báo-hàm-trong-javascript&#34;&gt;1. Khai Báo Hàm trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Có hai cách phổ biến để khai báo hàm trong JavaScript: khai báo hàm thông thường và khai báo hàm dưới dạng biểu thức hàm.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
